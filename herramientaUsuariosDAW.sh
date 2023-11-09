@@ -14,6 +14,7 @@ curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/info
 curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/crearAlumnosPrimeroDAW.sh > herramientaUsuariosDAW/crearAlumnosPrimeroDAW.sh
 curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/borrarAlumnosPrimeroDAW.sh > herramientaUsuariosDAW/borrarAlumnosPrimeroDAW.sh
 curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/actualizarArchivo-infoAlumnos.sh > herramientaUsuariosDAW/actualizarArchivo-infoAlumnos.sh
+echo "¡Descarga finalizada!"
 
 #DAREMOS PERMISOS DE EJECUCIÓN A LOS SCRIPTS:
 chmod ug+x herramientaUsuariosDAW/crearAlumnosPrimeroDAW.sh herramientaUsuariosDAW/borrarAlumnosPrimeroDAW.sh herramientaUsuariosDAW/actualizarArchivo-infoAlumnos.sh
