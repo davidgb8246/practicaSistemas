@@ -6,7 +6,6 @@ read nombreArchivo
 echo "Dime el nombre para el grupo de los alumnos: "
 read groupAlumnos
 
-groupdel $groupAlumnos
 cantidadAlumnos=$(wc -l $nombreArchivo | cut -d " " -f1)
 
 for ((i=1; i<=cantidadAlumnos; i++))
@@ -18,3 +17,5 @@ do
 	userdel $usuActual
 	rm -r $homeUsuActual
 done
+
+groupdel $groupAlumnos
