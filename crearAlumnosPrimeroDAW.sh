@@ -20,6 +20,6 @@ do
 	homeUsuActual=$(head -n $i $nombreArchivo | tail -n 1 | cut -d " " -f2)
 
 	#CREAREMOS CADA USUARIO DEL FICHERO DE REFERENCIA
-	useradd -m -g $groupAlumnos -d $homeUsuActual $usuActual
+	useradd -m -s /bin/bash -g $groupAlumnos -d $homeUsuActual $usuActual
 	echo "$usuActual:$usuPass" | chpasswd
 done
