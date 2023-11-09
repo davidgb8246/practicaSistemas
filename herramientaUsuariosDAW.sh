@@ -8,6 +8,7 @@ echo "Descargando las herramientas y el archivo de referencia..."
 curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/infoAlumnos > herramientaUsuariosDAW/infoAlumnos
 curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/crearAlumnosPrimeroDAW.sh > herramientaUsuariosDAW/crearAlumnosPrimeroDAW.sh
 curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/borrarAlumnosPrimeroDAW.sh > herramientaUsuariosDAW/borrarAlumnosPrimeroDAW.sh
+curl -s hhttps://github.com/davidgb8246/practicaSistemas/blob/main/actualizarArchivo-infoAlumnos.sh > herramientaUsuariosDAW/actualizarArchivo-infoAlumnos.sh
 
 #DAREMOS PERMISOS DE EJECUCIÓN A LOS SCRIPTS:
-chmod ug+x herramientaUsuariosDAW/crearAlumnosPrimeroDAW.sh herramientaUsuariosDAW/borrarAlumnosPrimeroDAW.sh
+chmod ug+x herramientaUsuariosDAW/crearAlumnosPrimeroDAW.sh herramientaUsuariosDAW/borrarAlumnosPrimeroDAW.sh herramientaUsuariosDAW/actualizarArchivo-infoAlumnos.sh
