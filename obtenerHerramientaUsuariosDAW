@@ -1,1 +1,1 @@
-curl -s https://main--davidgb8246-practica-sistemas.netlify.app/herramientaUsuariosDAW.sh > herramientaUsuariosDAW.sh && chmod ug+x herramientaUsuariosDAW.sh
+curl -s https://main--davidgb8246-practica-sistemas.netlify.app/herramientaUsuariosDAW.sh > herramientaUsuariosDAW.sh && chmod ug+x herramientaUsuariosDAW.sh && echo -e " \nAVISO: \nEs recomendable ejecutar el script de inicialización > herramientaUsuariosDAW.sh < sin sudo, los demás scripts se deben de ejecutar con sudo."
