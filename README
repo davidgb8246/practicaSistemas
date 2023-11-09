@@ -13,4 +13,3 @@
 
 #Script para actualizar el archivo de referencia desde el repositorio de GitHub donde se almacena la información de los alumnos:
 "sudo ./actualizarArchivo-infoAlumnos.sh"
-hola2
