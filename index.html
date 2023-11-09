@@ -1,9 +1,35 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script Creación Usuarios</title>
+</head>
+<body>
+
+    <pre>
+
+########################################
+#####                              #####
+#####   SCRIPT CREACIÓN USUARIOS   #####
+#####                              #####
+########################################
+
+#Antes de ejecutar ningún script deberás de entrar a la carpeta donde se encuentran los scripts:
+"cd herramientaUsuariosDAW/"
+
+¡¡¡ ATENCIÓN !!! 
+ES MUY IMPORTANTE INTRODUCIR BIEN LA RUTA DEL ARCHIVO DONDE SE ALMACENA LA INFORMACIÓN DE LOS ALUMNOS PARA QUE NO HAYA PROBLEMAS A LA HORA DE EJECUTAR LOS SCRIPTS.
+
+#Script para crear los usuarios y sus directorios de trabajo según un archivo de referencia:
+"sudo ./crearAlumnosPrimeroDAW.sh"
+
+#Script para borrar los usuarios creados anteriormente y sus directorios de trabajo según un archivo de referencia:
+"sudo ./borrarAlumnosPrimeroDAW.sh"
+
+#Script para actualizar el archivo de referencia desde el repositorio de GitHub donde se almacena la información de los alumnos (este script no requiere sudo):
+"sudo ./actualizarArchivo-infoAlumnos.sh"
+    </pre>
+</body>
 </html>
