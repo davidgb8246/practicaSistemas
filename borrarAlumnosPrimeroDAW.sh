@@ -2,6 +2,11 @@
 
 echo "Dime el nombre del archivo donde está almacenada la info de los alumnos: (Estructura: [home username])"
 read nombreArchivo
+
+echo "Dime el nombre para el grupo de los alumnos: "
+read groupAlumnos
+
+groupdel $groupAlumnos
 cantidadAlumnos=$(wc -l $nombreArchivo | cut -d " " -f1)
 
 for ((i=1; i<=cantidadAlumnos; i++))
