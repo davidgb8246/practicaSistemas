@@ -9,11 +9,11 @@ read alumnosFileName
 
 #DESCARGAREMOS LAS HERRAMIENTAS Y EL ARCHIVO DE REFERENCIA:
 echo "Descargando las herramientas y el archivo de referencia..."
-curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/README > herramientaUsuariosDAW/README
-curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/infoAlumnos > herramientaUsuariosDAW/$alumnosFileName
-curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/crearAlumnosPrimeroDAW.sh > herramientaUsuariosDAW/crearAlumnosPrimeroDAW.sh
-curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/borrarAlumnosPrimeroDAW.sh > herramientaUsuariosDAW/borrarAlumnosPrimeroDAW.sh
-curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/actualizarArchivo-infoAlumnos.sh > herramientaUsuariosDAW/actualizarArchivo-infoAlumnos.sh
+curl -s https://main--davidgb8246-practica-sistemas.netlify.app/README > herramientaUsuariosDAW/README
+curl -s https://main--davidgb8246-practica-sistemas.netlify.app/infoAlumnos > herramientaUsuariosDAW/$alumnosFileName
+curl -s https://main--davidgb8246-practica-sistemas.netlify.app/crearAlumnosPrimeroDAW.sh > herramientaUsuariosDAW/crearAlumnosPrimeroDAW.sh
+curl -s https://main--davidgb8246-practica-sistemas.netlify.app/borrarAlumnosPrimeroDAW.sh > herramientaUsuariosDAW/borrarAlumnosPrimeroDAW.sh
+curl -s https://main--davidgb8246-practica-sistemas.netlify.app/actualizarArchivo-infoAlumnos.sh > herramientaUsuariosDAW/actualizarArchivo-infoAlumnos.sh
 echo "¡Descarga finalizada!"
 
 #DAREMOS PERMISOS DE EJECUCIÓN A LOS SCRIPTS:
