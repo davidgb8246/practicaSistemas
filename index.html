@@ -1,35 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Script Creación Usuarios</title>
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Script Creación Usuarios</title>
+		<style>
+			body {
+				font-family: 'Arial', sans-serif;
+				margin: 20px;
+				color: #f2f0ed;
+				background-color: #0e1011;
+			}
+				pre {
+				border: 0px solid #ccc;
+				padding: 20px;
+				background-color: #0e1011;
+				color: #f2f0ed;
+			}
+		</style>
+	</head>
+	<body>
 
-    <pre>
-
+		<pre>
 ########################################
 #####                              #####
 #####   SCRIPT CREACIÓN USUARIOS   #####
 #####                              #####
 ########################################
 
-#Antes de ejecutar ningún script deberás de entrar a la carpeta donde se encuentran los scripts:
+Puedes obtener el siguiente script usando el siguiente comando:
+curl -sSL https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/obtenerHerramientaUsuariosDAW | bash
+
+Antes de ejecutar ningún script deberás de entrar a la carpeta donde se encuentran los scripts:
 "cd herramientaUsuariosDAW/"
 
 ¡¡¡ ATENCIÓN !!! 
 ES MUY IMPORTANTE INTRODUCIR BIEN LA RUTA DEL ARCHIVO DONDE SE ALMACENA LA INFORMACIÓN DE LOS ALUMNOS PARA QUE NO HAYA PROBLEMAS A LA HORA DE EJECUTAR LOS SCRIPTS.
 
-#Script para crear los usuarios y sus directorios de trabajo según un archivo de referencia:
+Script para crear los usuarios y sus directorios de trabajo según un archivo de referencia:
 "sudo ./crearAlumnosPrimeroDAW.sh"
 
-#Script para borrar los usuarios creados anteriormente y sus directorios de trabajo según un archivo de referencia:
+Script para borrar los usuarios creados anteriormente y sus directorios de trabajo según un archivo de referencia:
 "sudo ./borrarAlumnosPrimeroDAW.sh"
 
-#Script para actualizar el archivo de referencia desde el repositorio de GitHub donde se almacena la información de los alumnos (este script no requiere sudo):
+Script para actualizar el archivo de referencia desde el repositorio de GitHub donde se almacena la información de los alumnos (este script no requiere sudo):
 "sudo ./actualizarArchivo-infoAlumnos.sh"
-    </pre>
-</body>
+		</pre>
+
+	</body>
 </html>
