@@ -13,7 +13,7 @@ do
 	usuActual=$(head -n $i $nombreArchivo | tail -n 1 | cut -d " " -f1)
 	homeUsuActual=$(head -n $i $nombreArchivo | tail -n 1 | cut -d " " -f2)
 
-	#CREAREMOS CADA USUARIO DEL FICHERO DE REFERENCIA
+	#BORRAREMOS CADA USUARIO DEL FICHERO DE REFERENCIA
 	userdel $usuActual
 	rm -r $homeUsuActual
 done
