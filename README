@@ -6,10 +6,10 @@
 ########################################
 
 #Script para crear los usuarios y sus directorios de trabajo según un archivo de referencia:
-"sudo herramientaUsuariosDAW/crearAlumnosPrimeroDAW.sh"
+"cd herramientaUsuariosDAW && sudo ./crearAlumnosPrimeroDAW.sh"
 
 #Script para borrar los usuarios creados anteriormente y sus directorios de trabajo según un archivo de referencia:
-"sudo herramientaUsuariosDAW/borrarAlumnosPrimeroDAW.sh"
+"cd herramientaUsuariosDAW && sudo ./borrarAlumnosPrimeroDAW.sh"
 
 #Script para actualizar el archivo de referencia desde el repositorio de GitHub donde se almacena la información de los alumnos:
-"sudo herramientaUsuariosDAW/actualizarArchivo-infoAlumnos.sh"
+"cd herramientaUsuariosDAW && sudo ./actualizarArchivo-infoAlumnos.sh"
