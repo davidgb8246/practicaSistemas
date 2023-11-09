@@ -4,7 +4,7 @@
 mkdir herramientaUsuariosDAW
 
 #SOLICITAREMOS AL USUARIO EL NOMBRE DEL ARCHIVO DONDE SE ALMACENARÁN LA INFORMACIÓN DE LOS ALUMNOS.
-echo "Dime el nombre del archivo para almacenar la información de los alumnos."
+echo "Dime el nombre del archivo para almacenar la información de los alumnos:"
 read alumnosFileName
 
 #DESCARGAREMOS LAS HERRAMIENTAS Y EL ARCHIVO DE REFERENCIA:
