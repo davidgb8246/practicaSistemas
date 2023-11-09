@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#SOLICITAMOS AL USUARIO EL NOMBRE DEL ARCHIVO DONDE ESTÁ ALMACENANDO LA INFORMACIÓN DE LOS ALUMNOS PARA ACTUALIZARLO
+echo "Dime el nombre del achivo donde se almacena la información de los alumnos para actualizarlo: "
+read fileName
+
+#OBTENDRÉMOS EL ARCHIVO DEL REPOSITORIO PRINCIPAL Y LO ACTUALIZAREMOS
+curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/infoAlumnos > $fileName
+echo "¡Fichero actualizado!"
