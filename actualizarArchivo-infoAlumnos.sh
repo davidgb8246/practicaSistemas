@@ -5,5 +5,5 @@ echo "Dime el nombre del achivo donde se almacena la información de los alumnos
 read fileName
 
 #OBTENDRÉMOS EL ARCHIVO DEL REPOSITORIO PRINCIPAL Y LO ACTUALIZAREMOS
-curl -s https://raw.githubusercontent.com/davidgb8246/practicaSistemas/main/infoAlumnos > $fileName
+curl -s https://main--davidgb8246-practica-sistemas.netlify.app/infoAlumnos > $fileName
 echo "¡Fichero actualizado!"
