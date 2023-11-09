@@ -5,11 +5,17 @@
 #####                              #####
 ########################################
 
+#Antes de ejecutar ningún script deberás de entrar a la carpeta donde se encuentran los scripts:
+"cd herramientaUsuariosDAW/"
+
+¡¡¡ ATENCIÓN !!! 
+ES MUY IMPORTANTE INTRODUCIR BIEN LA RUTA DEL ARCHIVO DONDE SE ALMACENA LA INFORMACIÓN DE LOS ALUMNOS PARA QUE NO HAYA PROBLEMAS A LA HORA DE EJECUTAR LOS SCRIPTS.
+
 #Script para crear los usuarios y sus directorios de trabajo según un archivo de referencia:
-"cd herramientaUsuariosDAW && sudo ./crearAlumnosPrimeroDAW.sh"
+"sudo ./crearAlumnosPrimeroDAW.sh"
 
 #Script para borrar los usuarios creados anteriormente y sus directorios de trabajo según un archivo de referencia:
-"cd herramientaUsuariosDAW && sudo ./borrarAlumnosPrimeroDAW.sh"
+"sudo ./borrarAlumnosPrimeroDAW.sh"
 
 #Script para actualizar el archivo de referencia desde el repositorio de GitHub donde se almacena la información de los alumnos:
-"cd herramientaUsuariosDAW && sudo ./actualizarArchivo-infoAlumnos.sh"
+"sudo ./actualizarArchivo-infoAlumnos.sh"
