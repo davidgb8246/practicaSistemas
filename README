@@ -17,5 +17,5 @@ ES MUY IMPORTANTE INTRODUCIR BIEN LA RUTA DEL ARCHIVO DONDE SE ALMACENA LA INFOR
 #Script para borrar los usuarios creados anteriormente y sus directorios de trabajo según un archivo de referencia:
 "sudo ./borrarAlumnosPrimeroDAW.sh"
 
-#Script para actualizar el archivo de referencia desde el repositorio de GitHub donde se almacena la información de los alumnos:
+#Script para actualizar el archivo de referencia desde el repositorio de GitHub donde se almacena la información de los alumnos (este script no requiere sudo):
 "sudo ./actualizarArchivo-infoAlumnos.sh"
