@@ -7,6 +7,7 @@ echo "Dime el nombre para el grupo de los alumnos: "
 read groupAlumnos
 
 cantidadAlumnos=$(wc -l $nombreArchivo | cut -d " " -f1)
+groupadd $groupAlumnos
 
 for ((i=1; i<=cantidadAlumnos; i++))
 do
