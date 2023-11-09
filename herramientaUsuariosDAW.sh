@@ -20,4 +20,4 @@ echo "¡Descarga finalizada!"
 chmod ug+x herramientaUsuariosDAW/crearAlumnosPrimeroDAW.sh herramientaUsuariosDAW/borrarAlumnosPrimeroDAW.sh herramientaUsuariosDAW/actualizarArchivo-infoAlumnos.sh
 
 #MOSTRAREMOS LA INFORMACIÓN DEL README:
-cat herramientaUsuariosDAW/README && cd herramientaUsuariosDAW/
+cat herramientaUsuariosDAW/README
